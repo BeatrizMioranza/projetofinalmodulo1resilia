@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    height: 615px
+    height: 615px;
 }
 .logo{
     display: flex;
@@ -22,7 +22,8 @@
     text-align: center;
     font-family: "monstros", sans-serif;
     font-size:50px;
-    color:#0988d1;
+    color:blueviolet;
+    text-shadow: 0.1em 0.1em 0.2em whitesmoke;
     margin-bottom: 25px;
     border-radius: 15px;
     padding: 10px 15px;
