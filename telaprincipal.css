@@ -78,7 +78,7 @@ header{
 }
 
 .botao:hover {
-    transform:scale(1.3);
+    transform:scale(1.2);
     background-color: aliceblue;
     border: solid 2px blueviolet;
     color: blueviolet;
