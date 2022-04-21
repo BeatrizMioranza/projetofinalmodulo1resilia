@@ -7,33 +7,36 @@
     src:url("./font.ttf");
 }
 .fundo{
-    background-image:url("./img/Background/backgroundprincipal.jpeg");
+    background-image: url("./img/Background/aaaa.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: center;
-    height: 615px;
+    height: 617px;
 }
 .logo{
     display: flex;
     flex-direction:column;
     align-items: center;
 }
-.escolhadaporta{
-    text-align: center;
-    font-family: "monstros", sans-serif;
-    font-size:50px;
-    color:blueviolet;
-    text-shadow: 0.1em 0.1em 0.2em whitesmoke;
-    margin-bottom: 25px;
-    border-radius: 15px;
-    padding: 10px 15px;
+.imagemlogo{
+    width: 30%;
 }
-.fundoporta{
-    background-color:rgba(255, 255, 255, 0.541);
-    margin-right: 100px;
-    margin-left: 100px;
+.fundotexto{
+    background-color: white;
+    margin: 0px auto;
     border-radius: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    width: 80%;
+    height: 60%
+}
+.texto{
+    text-align: center;
+    color:#2959A3;
+    font-family: sans-serif;
+}
+.escolhas{
+    text-align: center;
+    font-family: sans-serif;
+    color:rgb(124, 124, 124);
+    font-weight: lighter;
+    width: 60%;
+    padding-bottom: 16px;
 }
