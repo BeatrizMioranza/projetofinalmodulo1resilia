@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./part1.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./part1.css" />
     <title>Ajude a Boo!</title>
-</head>
-<body>
-    <section class="fundo">  
-          <div class="logo"> 
-             <img class="imagemlogo" src="./img/Logo/logo002.gif"><img>
-          </div>
-            <div class="fundoporta">
-                <div class="porta">
-                 <img class="imagem"src="./img/Portas/portarosa.png">
-                 <img class="imagem" src="./img/Portas/portaverde.png">
-                </div>
-                <h1 class="escolhadaporta">Escolha uma porta</h1>
-            </div>
+  </head>
+  <body>
+    <section class="fundo">
+      <div class="logo">
+        <img class="imagemlogo" src="./img/Logo/logo002.gif">
+      </div>
+      <div class="fundoporta">
+        <div class="porta">
+          <img class="imagem" src="./img/Portas/portarosa.png">
+          <img class="imagem" src="./img/Portas/portaverde.png">
+        </div>
+        <div
+          class="escolhadaporta"
+          onclick="respostaCorreta('Escolha uma porta\nA-Porta Rosa\nB-Porta Verde\nC-Porta Roxa','a','Parabéns')">
+          Escolha uma porta
+        </div>
+      </div>
     </section>
-    <script></script>
-</body>
+    <script src="./boo.js"></script>
+  </body>
 </html>

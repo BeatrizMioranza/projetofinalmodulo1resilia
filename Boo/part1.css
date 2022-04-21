@@ -19,7 +19,6 @@
 }
 .imagemlogo{
     width: 30%;
-    
 }
 .fundoporta{
     background-color: white;
@@ -29,21 +28,23 @@
     height: 60%;
 }
 .escolhadaporta{
+    background-color: blueviolet;
     text-align: center;
     font-family: sans-serif;
-    color:rgb(124, 124, 124);
+    color:aliceblue;
     font-weight: lighter;
-    width: 60%;
-    padding-bottom: 16px;
-
+    margin: 0px auto;
+    border-radius: 30px;
+    width: 20%;
 }
 .porta{
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
    justify-content:space-around;
+   padding-bottom: 25px;
 }
 .imagem{
-    max-width: 20%;
+    max-width: 15%;
 
 }

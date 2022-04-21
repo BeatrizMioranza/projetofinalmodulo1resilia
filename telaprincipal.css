@@ -75,6 +75,7 @@ header{
     padding: 8px 30px;
     border: solid 2px blueviolet;
     border-radius: 30px;
+    transition: 1s;
 }
 
 .botao:hover {
