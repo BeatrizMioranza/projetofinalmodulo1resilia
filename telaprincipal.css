@@ -16,7 +16,7 @@
     background-image: url(./img/aaaa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 38em;
+    height:38em;
 }
 header{
     display: flex;
