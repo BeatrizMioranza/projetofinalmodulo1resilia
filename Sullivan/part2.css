@@ -31,6 +31,12 @@
     text-align: center;
     color:#2959A3;
     font-family: sans-serif;
+    padding-top: 30px;
+}
+.fundoescolhas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .escolhas{
     text-align: center;
@@ -38,5 +44,30 @@
     color:rgb(124, 124, 124);
     font-weight: lighter;
     width: 60%;
-    padding-bottom: 16px;
+    padding: 20px;
+}
+.botao{
+    color: aliceblue;
+    text-align: center;
+    background-color: blueviolet;
+    font-family: sans-serif;
+    font-size:larger;
+    margin-top: 10px;
+    padding: 8px;
+    width: 30%;
+    border: solid 2px blueviolet;
+    border-radius: 30px;
+    transition: 1s;
+    cursor: pointer;
+}
+.botao:hover{
+    transform:scale(1.2);
+    background-color: aliceblue;
+    border: solid 2px blueviolet;
+    color: blueviolet;
+}
+.fundobotao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }

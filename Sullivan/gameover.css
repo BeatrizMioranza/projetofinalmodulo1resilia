@@ -25,16 +25,45 @@
     margin: 0px auto;
     border-radius: 15px;
     width: 80%;
-    height: 60%
+    height: 60%;
+}  
+.gameover{
+    text-align: center;
+    color:#2959A3;
+    font-family:monstros, sans-serif;
+    font-size:110px;
 }
 .texto{
     text-align: center;
     font-family: sans-serif;
     color:rgb(136, 136, 136);
+    padding-bottom: 30px;
 }
-.gameover{
+
+.botao{
+    color: aliceblue;
     text-align: center;
-    color:#2959A3;
-    font-family:monstros, sans-serif;
+    background-color: blueviolet;
+    font-family: sans-serif;
+    font-size:larger;
+    margin-top: 10px;
+    padding: 8px;
+    width: 30%;
+    border: solid 2px blueviolet;
+    border-radius: 30px;
+    transition: 1s;
+    cursor: pointer;
+}
+.botao:hover{
+    transform:scale(1.2);
+    background-color: aliceblue;
+    border: solid 2px blueviolet;
+    color: blueviolet;
+}
+
+.fundobotao{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
 }
 

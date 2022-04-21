@@ -16,7 +16,7 @@
     background-image: url(./img/aaaa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 617px;
+    height: 38em;
 }
 header{
     display: flex;
@@ -24,13 +24,17 @@ header{
     align-items: center;
 }
 .descricao{
-    margin-left:250px;
     text-align: center;
     font-family: sans-serif;
     color:rgb(124, 124, 124);
     font-weight: lighter;
     width: 60%;
     padding-bottom: 16px;
+}
+.blocodescricao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .fundopersonagens{
     background-color: white;
@@ -75,6 +79,7 @@ header{
     padding: 8px 30px;
     border: solid 2px blueviolet;
     border-radius: 30px;
+    cursor: pointer;
     transition: 1s;
 }
 

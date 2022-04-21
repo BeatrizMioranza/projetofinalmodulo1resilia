@@ -28,14 +28,28 @@
     height: 60%;
 }
 .escolhadaporta{
-    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.botao{
+    color: aliceblue;
     text-align: center;
+    background-color: blueviolet;
     font-family: sans-serif;
-    color:aliceblue;
-    font-weight: lighter;
-    margin: 0px auto;
+    margin-top: 10px;
+    padding: 8px;
+    width: 30%;
+    border: solid 2px blueviolet;
     border-radius: 30px;
-    width: 20%;
+    cursor: pointer;
+    transition: 1s;
+}
+.botao:hover{
+    transform:scale(1.2);
+    background-color: aliceblue;
+    border: solid 2px blueviolet;
+    color: blueviolet;
 }
 .porta{
    display: flex;
@@ -43,6 +57,7 @@
    flex-wrap: wrap;
    justify-content:space-around;
    padding-bottom: 25px;
+   padding-top: 20px;
 }
 .imagem{
     max-width: 15%;
