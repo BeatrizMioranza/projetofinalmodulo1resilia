@@ -1,4 +1,8 @@
 @media (min-width:1920px) {
+    @font-face{
+        font-family: monstros;
+        src:url("./font.ttf");
+    } 
     #fotoprincipal {
         background-image: url(./img/aaaa.jpg);
         background-repeat: no-repeat;
