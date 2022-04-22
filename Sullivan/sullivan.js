@@ -17,7 +17,7 @@ function respostaPartUm(portaUm, portaDois) {
 
 }
 
-function respostaCorreta(pergunta, proxPaginaUm, proxPaginaDois, mensagem, caminhoUm, caminhoDois, gameOver) {
+function respostaCorreta(pergunta, proxPaginaUm, proxPaginaDois, caminhoUm, caminhoDois, gameOver) {
     while (!false) {
         if (vida <= 0) {
             alert("Game Over")

@@ -7,7 +7,7 @@
     src:url("./font.ttf");
 }
 .fundo{
-    background-image: url("./img/Background/aaaa.jpg");
+    background-image: url("./img/aaaa.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     height: 617px;
