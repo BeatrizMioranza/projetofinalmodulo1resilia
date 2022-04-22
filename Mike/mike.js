@@ -1,6 +1,4 @@
-var respostaCorreta;
-var mensagem;
-var respostaUsuario;
+var respostaUsuario
 var resposta
 var proxFase
 var respostaCerta
@@ -17,7 +15,7 @@ function respostaPartUm(portaUm, portaDois) {
 
 }
 
-function respostaCorreta(pergunta, proxPaginaUm, proxPaginaDois,caminhoUm, caminhoDois, gameOver) {
+function respostaCorreta(pergunta, proxPaginaUm, proxPaginaDois, caminhoUm, caminhoDois, gameOver) {
     while (!false) {
         if (vida <= 0) {
             alert("Game Over")

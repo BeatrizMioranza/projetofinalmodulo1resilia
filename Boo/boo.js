@@ -1,6 +1,4 @@
-var respostaCorreta;
-var mensagem;
-var respostaUsuario;
+var respostaUsuario
 var resposta
 var proxFase
 var respostaCerta
