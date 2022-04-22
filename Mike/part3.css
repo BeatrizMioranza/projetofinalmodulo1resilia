@@ -24,15 +24,25 @@
     margin: 0px auto;
     border-radius: 15px;
     width: 80%;
-    height: 60%
+    padding: 3em;
 }
 .texto{
     text-align: center;
     color:#2959A3;
     font-family: sans-serif;
-    padding-top: 30px;
-
-
+}
+.fundoescolhas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.escolhas{
+    text-align: center;
+    font-family: sans-serif;
+    color:rgb(124, 124, 124);
+    font-weight: lighter;
+    width: 60%;
+    padding: 20px;
 }
 .botao{
     color: aliceblue;
@@ -54,7 +64,6 @@
     border: solid 2px blueviolet;
     color: blueviolet;
 }
-
 .fundobotao{
     display: flex;
     flex-direction: row;

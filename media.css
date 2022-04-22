@@ -89,6 +89,13 @@
         align-items: center;
         width: 40%;
     }
+    .fundotexto{
+        background-color: white;
+        margin: 0px auto;
+        border-radius: 15px;
+        width: 80%;
+        padding: 3em;
+    }
     .descricao {
         text-align: center;
         font-family: sans-serif;
@@ -131,5 +138,4 @@
         width: 80%;
         height: 80%;
     }
-
 }
