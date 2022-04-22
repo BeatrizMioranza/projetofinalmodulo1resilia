@@ -9,14 +9,11 @@
         background-size: cover;
     }
 
-    .logo {
+    .imagemlogo{
+        width: 30%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 30%;
-    }
-
-    .imagemlogo{
         width: 30%;
     }
 
@@ -86,14 +83,11 @@
         height: 68em;
     }
 
-    .logo {
+    .imagemlogo {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 40%;
-    }
-    .imagemlogo{
-    width: 40%;
     }
     .descricao {
         text-align: center;

@@ -6,7 +6,7 @@
     font-family: monstros;
     src:url("./font.ttf");
 }
-.logo{
+.imagemlogo{
     display: flex;
     flex-direction:column;
     align-items: center;
