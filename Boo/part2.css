@@ -10,7 +10,6 @@
     background-image: url("./img/aaaa.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-    height: 617px;
 }
 .logo{
     display: flex;
@@ -25,7 +24,7 @@
     margin: 0px auto;
     border-radius: 15px;
     width: 80%;
-    height: 60%
+    padding: 3em;
 }
 .texto{
     text-align: center;

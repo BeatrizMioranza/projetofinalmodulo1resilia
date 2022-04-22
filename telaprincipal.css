@@ -12,7 +12,7 @@
     align-items: center;
     width: 30%;
 }
-#fotoprincipal{
+#fundo{
     background-image: url(./img/aaaa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
