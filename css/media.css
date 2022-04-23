@@ -1,0 +1,141 @@
+@media (min-width:1920px) {
+    @font-face{
+        font-family: monstros;
+        src:url("../fonte/font.ttf");
+    } 
+    #fundo {
+        background-image: url("../img/fundo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .imagemlogo{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+    }
+
+    .textotitulo {
+        text-align: center;
+        color: #2959A3;
+        font-family: "monstros", sans-serif;
+        font-size: 60px;
+        font-weight: lighter;
+        padding: 8px;
+    }
+
+    .descricao {
+        text-align: center;
+        font-family: sans-serif;
+        color: rgb(124, 124, 124);
+        font-weight: lighter;
+        font-size: 50px;
+        width: 80%;
+        padding-bottom: 1em;
+    }
+
+    .botao {
+        color: aliceblue;
+        background-color: blueviolet;
+        font-family: sans-serif;
+        font-size: larger;
+        font-weight: bolder;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        padding: 8px 20px;
+        border: solid 2px blueviolet;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: 1s;
+    }
+
+    .fotoperfil {
+        border: solid 3px rgb(197, 196, 196);
+        border-radius: 1em;
+        width: 50%;
+        height: 80%;
+    }
+
+    .fotospersonagens {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .fundopersonagens {
+        background-color: white;
+        margin: 0px auto;
+        border-radius: 15px;
+        width: 80%;
+        height: 50%;
+    }
+
+}
+
+@media (max-width:700px) {
+
+    #fundo {
+        background-image: url("../img/fundo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 68em;
+    }
+
+    .imagemlogo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+    }
+    .fundotexto{
+        background-color: white;
+        margin: 0px auto;
+        border-radius: 15px;
+        width: 80%;
+        padding: 3em;
+    }
+    .descricao {
+        text-align: center;
+        font-family: sans-serif;
+        color: rgb(124, 124, 124);
+        font-weight: lighter;
+        width: 90%;
+        padding-bottom: 1em;
+    }
+
+    .botao {
+        color: aliceblue;
+        background-color: blueviolet;
+        font-family: sans-serif;
+        font-size: small;
+        font-weight: bolder;
+        margin-top: 1em;
+        padding: 8px 30px;
+        border: solid 2px blueviolet;
+        border-radius: 2em;
+        cursor: pointer;
+        transition: 1s;
+    }
+
+    .fotoperfil {
+        border: solid 2px rgb(197, 196, 196);
+        border-radius: 1em;
+    }
+
+    .fotospersonagens {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .fundopersonagens {
+        background-color: white;
+        margin: 0px auto;
+        border-radius: 15px;
+        width: 80%;
+        height: 80%;
+    }
+}
