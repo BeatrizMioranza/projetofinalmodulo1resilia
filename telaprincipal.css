@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: monstros;
-    src: url("../fonte/font.ttf");
+    src: url("./favicon/favicon.ico");
 }
 
 .imagemlogo {
@@ -16,7 +16,7 @@
 }
 
 #fundo {
-    background-image: url("../img/fundo.jpg");
+    background-image: url("./img/fundo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
