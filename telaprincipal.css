@@ -15,7 +15,7 @@
     width: 30%;
 }
 
-#fundo {
+.fundoprincipal {
     background-image: url("./img/fundo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
